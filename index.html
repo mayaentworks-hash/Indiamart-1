@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>B2B Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP HEADER -->
+<div class="topbar">
+
+  <!-- LOGO -->
+  <div class="logo">
+  <img src="logo.png" alt="IndiaMART Logo">
+</div>
+
+  <!-- SEARCH -->
+  <div class="search-section">
+    <select class="dropdown">
+      <option>Buy Leads</option>
+      <option>Products</option>
+    </select>
+
+    <input type="text" placeholder="Enter product / service to search">
+    <button class="search-btn">Search</button>
+  </div>
+
+  <!-- RIGHT MENU -->
+  <div class="top-menu">
+    <span>Lead Manager</span>
+    <span>BuyLeads</span>
+    <span>Products</span>
+    <span>MSME Loans</span>
+    <span>Alerts 🔔</span>
+    <span>Help</span>
+    <span class="user">Hi User ▼</span>
+  </div>
+
+</div>
+
+</div>
+
+<!-- BODY -->
+<div class="container">
+
+  <!-- SIDEBAR -->
+<div class="container">
+
+  <div class="sidebar">
+
+    <div class="menu active">🏠 <span>Dashboard</span></div>
+    <div class="menu">👤 <span>Profile</span></div>
+    <div class="menu">📊 <span>Lead Manager</span></div>
+    <div class="menu">📈 <span>BuyLeads</span></div>
+    <div class="menu">📦 <span>Products</span></div>
+    <div class="menu">🖼️ <span>Photos & Docs</span></div>
+    <div class="menu">🧾 <span>Invoices</span></div>
+    <div class="menu">🛠️ <span>Buyer Tools</span></div>
+    <div class="menu">⚙️ <span>Settings</span></div>
+    <div class="menu">🌐 <span>Tally on Web</span></div>
+
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main">
+
+    <!-- BANNER -->
+    <div class="banner">
+      <h2>UNLOCK EXPORT OPPORTUNITIES</h2>
+      <p>with Verified Leads on Global Searches</p>
+      <button>Explore</button>
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+
+      <!-- Messages -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Messages</h3>
+        </div>
+        <div id="messages"></div>
+        <div class="view">View All</div>
+      </div>
+
+      <!-- Relevant Leads -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Relevant BuyLeads</h3>
+        </div>
+        <div id="relevant"></div>
+        <div class="view">View All</div>
+      </div>
+
+      <!-- Recent Leads -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Recent BuyLeads</h3>
+        </div>
+        <div id="recent"></div>
+        <div class="view">View All</div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
