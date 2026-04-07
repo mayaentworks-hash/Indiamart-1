@@ -165,23 +165,37 @@ body {
 
 /* BANNER */
 .banner {
-  background: #eef3ff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e0e0; /* only light grey */
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin: 20px;
 }
 
-.banner h2 {
-  color: #2b3a8a;
+.left-content {
+  max-width: 70%; /* prevents text pushing button */
 }
 
-.banner button {
-  margin-top: 10px;
-  background: #2b3a8a;
+.left-content h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.left-content p {
+  margin: 5px 0 0;
+}
+
+.btn {
+  background-color: #0b1f5c;
   color: white;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0; /* prevents shrinking/overlap */
 }
 
 /* CARDS */
